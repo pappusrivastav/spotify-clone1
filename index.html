@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Spotify clone made using html,css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-1">
+        <!-- sidebar start -->
+      <div class="sidebar">
+        <div class="spotify-logo">
+          <img src="./assets/Spotify logo.svg" alt="spotify-logo" />
+        </div>
+        <div class="library">
+          <div class="link-flex">
+            <img src="./assets/fi-ss-home.svg" alt="home logo" width="20px"/>
+            <a href="index2.html">Home</a>
+          </div>
+
+          <div class="link-flex">
+            <img src="./assets/fi-rs-search.svg" alt="Search logo" width="20px"/>
+            <a href="index2.html">Search</a>
+          </div>
+          <div class="link-flex">
+            <img src="./assets/library.svg" alt="library logo" width="20px"/>
+            <a href="index2.html">Library</a>
+          </div>
+          <div id="s-playlist">
+            <div class="link-flex">
+              <img src="./assets/fi-ss-plus-small.png" alt="plus logo" class="plus" width="20px"/>
+              <a href="index2.html">Create Playlist</a>
+            </div>
+
+            <div class="link-flex">
+              <img src="./assets/heart-logo.svg" alt="heart logo" width="20px"/>
+              <a href="index2.html">Liked Songs</a>
+            </div>
+
+            <div class="link-flex">
+              <img src="./assets/gg_media-podcast.svg" alt="podcast logo" width="20px"/>
+              <a href="#">Your Episodes</a>
+            </div>
+            <div id="fav">
+              <div class="link-flex">
+                <a href="#">FAV</a>
+              </div>
+              <div class="link-flex">
+                <a href="#">Daily Mix 1</a>
+              </div>
+              <div class="link-flex">
+                <a href="#">Discover Weekly</a>
+              </div>
+              <div class="link-flex">
+                <a href="#">Malayalam</a>
+              </div>
+              <div class="link-flex">
+                <a href="#">Dance/Electronic Mix</a>
+              </div>
+              <div class="link-flex">
+                <a href="#">EDM/Popular</a>
+              </div>
+            </div>
+              
+            <div id="install">
+                <div class="link-flex">
+                    <img src="./assets/grommet-icons_install-option.png" alt="install logo" width="20px"/>
+                    <a href="#">Install App</a>
+                  </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+<!-- sidebar end -->
+<!-- main-container start -->
+      <div class="main-container">
+        <!-- navbar start -->
+        <div class="navbar">
+            <div class="link-flex">
+                <a href="#"><img src="./assets/fi-rr-angle-small-left.svg" alt="previous button"></a>
+                <a href="index2.html"><img src="./assets/fi-rr-angle-small-right.svg" alt="next button"></a>
+            </div>
+            <div class="link-flex" id="profile-id">
+                <img src="/assets/profile.svg" alt="profile-picture" width="20px">
+                <p>welcome</p>
+                <img src="./assets/fi-ss-caret-down.svg" alt="down-button" width="20px">
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- items start -->
+        <h2 id="gud-mrng">Good Morning</h2>
+      <div class="items">
+        
+        <div class="link-flex player" >
+            <img src="./assets/heart-logo.svg" alt="heart" width="50px">
+            <a href="#">Liked Songs</a>
+        </div>
+        <div class="link-flex player">
+            <img src="./assets/singer-1.svg" alt="singer-1" width="50px">
+            <a href="#">Neffex Playlist</a>
+        </div>
+        <div class="link-flex player">
+            <img src="./assets/singer-2.svg" alt="singer-2" width="50px">
+            <a href="#">K/DA</a>
+        </div>
+        <div class="link-flex player">
+            <img src="./assets/singer-3.svg" alt="singer-3" width="50px">
+            <a href="#">Dance/Electronic Mix</a>
+        </div>
+        
+      </div>
+      <!-- items end -->
+      <!-- heading start -->
+      <div id="heading">
+        <h3>Shows you might like</h3>
+       <a href="#" class="see">SEE ALL</a>
+      </div>
+      <!-- heading end -->
+<!-- cards-container start -->
+      <div class="cards-container">
+
+        <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/girl-glass.svg" alt="girl-glass" width="120px"> 
+            <h4>MEDITATION SELF</h4>
+            <p>Ivn Hussain Aleen</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/boy-glass.svg" alt="boy-glass" width="120px"> 
+            <h4>Words beyond...</h4>
+            <p>Samuel Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/china-man.svg" alt="china-man" width="120px"> 
+            <h4>The Alexa Show</h4>
+            <p>Adriana Tom</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>    
+         <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>   
+         
+          <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>   
+         
+          <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>   
+         
+          <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>   
+         
+          <div class="card">
+            <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+            <h4>Weekly motivatio...</h4>
+            <p>Ben ina Scott</p>
+         </div>   
+         <div class="card">
+          <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+          <h4>Weekly motivatio...</h4>
+          <p>Ben ina Scott</p>
+       </div>   
+       <div class="card">
+        <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+        <h4>Weekly motivatio...</h4>
+        <p>Ben ina Scott</p>
+     </div>   
+     <div class="card">
+      <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+      <h4>Weekly motivatio...</h4>
+      <p>Ben ina Scott</p>
+   </div>   
+   <div class="card">
+    <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+    <h4>Weekly motivatio...</h4>
+    <p>Ben ina Scott</p>
+ </div>   
+ <div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+<div class="card">
+  <img src="./assets/beard-man.svg" alt="beard-man" width="120px"> 
+  <h4>Weekly motivatio...</h4>
+  <p>Ben ina Scott</p>
+</div>   
+
+         
+      </div>
+      <!-- cards-container end -->
+      </div>
+<!-- main-conatiner end -->
+
+
+
+<!-- footer starts here -->
+      <div class="footer">
+<!-- music-player starts here -->
+        <div class="music-player">
+
+          <div class="div-one">
+            <img src="./assets/Artist , title section.svg" alt="">
+          </div>
+
+          <div class="music-player-option">
+            <img src="./assets/Music Player Options.svg" alt="">
+
+          </div>
+
+          <div class="div-two">
+            <img src="./assets/Right options.svg" alt="Right">
+          </div>
+
+        </div>
+<!-- music-player end here -->
+
+<!-- device-name starts here -->
+        <div class="device-name">
+<img src="./assets/fluent_speaker-2-24-regular.svg" alt="speaker" class="one">
+<p class="one">Listening on iphone 13 pro max</p>
+        </div>
+<!-- device-name end here -->
+
+      </div>
+<!-- footer end here -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

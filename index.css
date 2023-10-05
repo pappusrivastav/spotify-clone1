@@ -1,0 +1,316 @@
+:root {
+    --black: #000 !important;
+    --grey: #121212 !important;
+    --light-grey: #232323 !important;
+    --white: #fff !important;
+  }
+  body,
+  html {
+    height: 100% !important;
+    margin: 0rem !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: "Nunito", sans-serif !important;
+    /* background-color: var(--black); */
+    color: var(--white);
+  }
+  
+  a {
+    color: var(--white) !important;
+    text-decoration: none !important;
+    line-height: 5px !important;
+  }
+  
+    .container-1 {
+        display: flex !important;
+        flex: 1 !important;
+        overflow: hidden !important;
+        background-color: var(--black) !important;
+        padding: 0.5rem !important;
+        flex-wrap: wrap !important;
+      }
+
+  .sidebar{
+    flex: 0.20 !important; 
+    background-color: var(--black) !important;
+    padding: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .main-container{
+    flex: .80 !important;
+    background-color: var(--light-grey) !important;
+    overflow-y: scroll !important;
+    height: 85vh !important; 
+  }
+  .spotify-logo{
+    width: 202.58px !important;
+    margin-top: 0.5rem !important;
+    height: 60.53px !important;
+    margin-bottom: 0.5rem !important;
+    /*
+    top: 39.29px;
+    left: 35.82px; */
+
+  }
+  .spotify-logo:hover{
+    background-color: var(--light-grey) !important;
+  }
+  *{
+    margin: 0px !important; 
+    padding: 0px !important;
+  }
+  .link-flex{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    opacity: 0.7 !important;
+    gap: 1rem !important;
+    font-weight: 600 !important;
+    font-size: 0.8rem !important;
+    cursor: pointer !important;
+    flex-wrap: wrap !important;
+    padding: 1rem !important;
+    box-shadow: aqua !important;
+  }
+  .link-flex:hover{
+    opacity: 1 !important;
+    background-color: var(--light-grey) !important;
+    border-radius: 5px !important;
+  }
+  #s-playlist{
+    margin-top: 0.8rem !important;
+  }
+  #fav{
+    margin-top: 0.8rem !important;
+  }
+  #install{
+     /* margin-top: 1.5rem; */
+  }
+  .plus{
+    background-color: white !important;
+  }
+  .footer{
+    background-color: var(--light-grey) !important;
+    width: 100% !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .navbar{
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: #222222, #1F1F1F, #171717, #161616, #151515, #131313, #121212, #121212, #121212, #12121200 !important;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: var(--light-grey) !important;
+  }
+  #profile-id{
+    background-color: var(--black) !important;
+    border-radius: 10px !important;
+    margin-right: 10px !important;
+    gap: 0.3rem !important;
+    padding: 0.3rem !important;
+  }
+  .items{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important; 
+    /* background-color: var(--black);
+    border-radius: 20px; */
+  }
+  .player:hover{
+    background-color: var(--grey) !important;
+  }
+  #gud-mrng{
+    margin-inline: 20px !important;
+    margin-bottom: 10px !important;
+    font-weight: 900px !important;
+    font-size: larger !important;
+    margin-top: 50px !important;
+  }
+  #heading{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    /* padding-inline: 20px; */
+    margin: 20px !important;
+    margin-top: 30px !important;
+  }
+  .see{
+    color: #b3b3b3 !important;
+  }
+  .see:hover{
+    color: white !important;
+  }
+  .cards-container {
+    display: flex !important;
+    gap: 0.5rem !important;
+    flex-wrap: wrap !important;
+    /* Other styles as needed */
+  }
+  
+  .card {
+    width: 150px !important;
+    background-color: var(--black) !important;
+    padding: 0.75rem !important;
+    border-radius: 0.5rem !important;
+    height: fit-content !important;
+    margin: 0rem 0.75rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    transition: transform 2s !important;
+  }
+  .card:hover{
+    transform: scale(1.2) !important;
+      }
+
+  .device-name{
+    background-color: #1ed760 !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    
+  }
+  .one{
+    padding-inline: 15px !important;
+    margin-inline: 20px !important;
+    color: var(--light-grey) !important;
+  }
+  .div-one{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    
+    
+  }
+  .music-player{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100vw !important;
+    margin-inline: 20px !important;
+  }
+  .div-one-text{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-inline: 10px !important;
+    margin-inline: 10px !important;
+  }
+  .nef{
+    color: #b3b3b3 !important;
+  }
+  .div-two{
+    margin-right: 20px !important;
+  }
+  @media screen and (max-width:480px) {
+    .div-one,.div-one> div {
+      width: 30vw;
+    }
+    .div-two {
+      width: 200px;
+
+    }
+    .music-player-option > img {
+      width: 300px !important;
+
+    }
+    .main-container, .main-container-2 {
+      flex: 1 !important;
+    }
+    .sidebar {
+      display: none !important;
+    }
+    .navbar{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div-one>img{
+width:150px;
+
+    }
+    .cards-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .music-player{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+}
+
+  }
+
+  hr{
+    color: var(--light-grey) !important;
+  }
+  .album{
+    position: fixed !important;
+    bottom: 0px !important;
+    margin-bottom: 103px !important;
+    padding-right: 60px !important; 
+  }
+  .cards-container-2{
+    background-image: linear-gradient(#90AEA7, #000000) !important;
+    width: 100vw !important;
+  }
+  .main-container-2{
+    flex: 0.8;
+    background-color: --black !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    height: 95vh !important; 
+    /* width: 100vh !important; */
+    /* background-image: linear-gradient(#90AEA7, #000000); */
+  }
+  .dua-1{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .dua-text{
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: wrap !important;
+      color: white !important;
+  }
+  .dua-text>p>span{
+    font-weight: 900 !important;
+  }
+  .lore{
+    font-size: small !important;
+  }
+  .logos{
+    margin-left: 30px !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 50px !important;
+  }
+  #footer-2{
+    margin-right: 45px !important;
+  }
